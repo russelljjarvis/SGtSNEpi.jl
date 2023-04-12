@@ -33,5 +33,5 @@ function _form_knn_graph( X, u, k = 3*u; knn_type = :exact, rescale_type = :perp
   end
 
   # P = _perplexity_equalize_c( idxs, dists, u )
-
+  return (idxs,dists)
 end
